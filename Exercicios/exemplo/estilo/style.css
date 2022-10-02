@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+body p {
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, rgb(252, 227, 119), rgb(99, 99, 17));
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: var(--fonte-destaque);
+    text-shadow: 3px 3px 6px black;
+}
+
+header p {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 1.3em;
+    text-shadow: 3px 3px 3px black;
+}
+
+nav {
+    background-color: rgb(99,99,17);
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(252, 227, 119);
+    color: rgb(99, 99, 17);
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(252, 227, 119);
+    padding: 10px;
+    
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: rgb(252, 227, 119);
+    color: rgb(99, 99, 17);
+    border-radius: 3px;
+    padding: 2px;
+}
+
+main h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.692);
+}
+
+main h2 {
+    color: rgb(212, 212, 20);
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.521), transparent
+    );
+    text-indent: 15px;
+}
+
+main p {
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 2em;
+    padding: 10px;
+}
+
+aside {
+    background-color: rgba(212, 212, 20, 0.692);
+}
+
+aside p {
+    background-color: rgb(99, 99, 17);
+}
+
+ul {
+    color: white;
+}
+
+li {
+    line-height: 2em;
+    color: black;
+    font-weight: bolder;
+    text-indent: 2em;
+    list-style-position: inside;
+}
+
